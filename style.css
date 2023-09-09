@@ -1,0 +1,46 @@
+ /* Basic styling for the container */
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh; /* Center the card vertically on the page */
+}
+
+/* Basic styling for the card */
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+ /* Styling for the name */
+ .name {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styling for the image */
+.profile-image {
+    max-width: 50%;
+    border-radius: 25%; /* Makes the image round */
+}
+
+.github-link{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.github{
+    margin-top: 8%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* Make the card full-width on smaller screens */
+    }
+}
